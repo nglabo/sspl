@@ -1,6 +1,6 @@
 # Spell
 
-Bypass SSL Pinning on Android
+Bypass [SSL Pinning](https://medium.com/@appmattus/android-security-ssl-pinning-1db8acb6621e) on Android
 
 ## Installation
 
