@@ -68,10 +68,10 @@ func main() {
 		}
 	}
 
-	dist := path.Join(src, "dist", apkName)
-	if err := jarsigner.Sign(dist, store); err != nil {
+	build := path.Join(src, "build", apkName)
+	if err := jarsigner.Sign(build, store); err != nil {
 		utils.NewError("signing *.apk file", err)
 	}
 
-	fmt.Printf("\033[1;36m%v\033[0m %v\n", "[success]", dist)
+	fmt.Printf("\033[1;36m%v\033[0m %v\n", "[success]", build)
 }
