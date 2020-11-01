@@ -24,4 +24,8 @@ $ sspl com.example.apk
 sspl com.example.apk  46.69s user 2.01s system 208% cpu 23.377 total
 ```
 
-Thanks [levyitay/AddSecurityExceptionAndroid](https://github.com/levyitay/AddSecurityExceptionAndroid)
+## License
+
+This project is distributed under the [MIT license](LICENSE)
+
+##### Thanks to [levyitay/AddSecurityExceptionAndroid](https://github.com/levyitay/AddSecurityExceptionAndroid)
